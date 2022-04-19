@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Contact</title>
+</head>
+<body>
+    <h2>My conctact info</h2>
+    <p>Name: Nathan Never</p>
+    <p>Address: None of your B's wax</p>
+    <p>Phone: Check out my mobile number</p>
+    <p>Mobile: Say the magic word</p>
+    <hr>
+    <form action="mailto:info@gmail.com" method="post" enctype="text/plain"> <!-- form je obrazec ampak potrebuješ še label in input; mailto smo izbral zato, da se input nekam posname oz z njim nekaj naredi, v tem primeru maila-->
+         
+        <label>Your name:</label>
+        <input type="text" name="yourName" value=""><!---različni html labels ki jih določiš s typom, ki jih je cel miljon--><!-- dodali smo še value atributom "name"-->
+        <br>
+        <label>Your email:</label>
+        <input type="email" name="yourEmail" value=""><br>
+        <label>Your message:</label><br>
+        <textarea name="" rows="10" cols="30"></textarea>
+        <br>
+        <input type="submit" name="yourMessage">
+    </form>
+</body>
+</html>
